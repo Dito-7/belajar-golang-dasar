@@ -27,15 +27,15 @@ func convertToUint(s string) ([]uint16, error) {
 	return resultU, nil
 }
 
-func main() {
+func konversiData() {
 	var (
 		nilai32 int32 = 32768
 		nilai64 int64 = int64(nilai32)
 		nilai16 int16 = int16(nilai32)
 
 		name = "eko"
-		strn = string(nilai16)
-		str  = "Hello World!"
+		// strn = string(nilai16)
+		str = "Hello World!"
 
 		// convert = []int{72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100, 33}
 	)

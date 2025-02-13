@@ -6,7 +6,7 @@ func SetAlarm(employed, vacation bool) bool {
 	return employed && !vacation
 }
 
-func main() {
+func booleanExample() {
 	var employed bool = false
 	var vacation bool = false
 

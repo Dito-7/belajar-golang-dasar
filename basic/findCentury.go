@@ -14,7 +14,7 @@ func century(year int) int {
 	return year
 }
 
-func main() {
+func findCentury() {
 	cen := century(1999)
 	fmt.Println(cen)
 

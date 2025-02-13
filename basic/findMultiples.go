@@ -15,7 +15,7 @@ func FindMultiples(numbers []int) []int {
 	return numbers
 }
 
-func main() {
+func findMult() {
 	numbers := []int{2, 6}
 	// slice := numbers[1:2]
 	fmt.Println(FindMultiples(numbers))

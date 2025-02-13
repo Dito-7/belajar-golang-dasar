@@ -9,7 +9,7 @@ func intToString(num int) string {
 	return strconv.Itoa(num)
 }
 
-func main() {
+func toString() {
 	num1 := 123
 	num2 := 999
 	num3 := -100

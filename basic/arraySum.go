@@ -35,7 +35,7 @@ func countPositivesSumNegatives(numbers []int) []int {
 	return []int{countPositive, sumNegative}
 }
 
-func main() {
+func arraySum() {
 	numbers := []int{1, 2, -5, 10, -10}
 
 	fmt.Println(PositiveSum(numbers))
