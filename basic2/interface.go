@@ -10,3 +10,7 @@ func interfaceExample() {
 	data = "hello"
 	fmt.Println(data)
 }
+
+func PrintTypeAndValue(data interface{}) string {
+	return "tipe_data: value"
+}
